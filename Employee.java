@@ -16,10 +16,14 @@ public class Employee {
         this.salary = salary;
         this.age = age;
     }
+    
+    //вывод информации ооб объекте
 
     public void empInfo() {
         System.out.println("ФИО: " + fio + " Должность: " + post + " email: " + email + " № телефона:" + phoneNumber + " Зарплата: " + salary + " Возраст: " + age);
     }
+    
+    //
 
     public void empInfoMoreThan40() {
         if (age > 40)
@@ -27,3 +31,6 @@ public class Employee {
     }
 
 }
+
+
+
